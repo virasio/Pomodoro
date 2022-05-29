@@ -13,6 +13,14 @@
 		E2E99D872841F38E0084E248 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E99D752841F38E0084E248 /* ContentView.swift */; };
 		E2E99D882841F38E0084E248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2E99D762841F38E0084E248 /* Assets.xcassets */; };
 		E2E99D892841F38E0084E248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2E99D762841F38E0084E248 /* Assets.xcassets */; };
+		E2E99D96284201990084E248 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E99D95284201990084E248 /* State.swift */; };
+		E2E99D97284201990084E248 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E99D95284201990084E248 /* State.swift */; };
+		E2E99D99284211B20084E248 /* TimerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E99D98284211B20084E248 /* TimerConfiguration.swift */; };
+		E2E99D9A284211B20084E248 /* TimerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E99D98284211B20084E248 /* TimerConfiguration.swift */; };
+		E2E99D9C284213DF0084E248 /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E99D9B284213DF0084E248 /* TimerModel.swift */; };
+		E2E99D9D284213DF0084E248 /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E99D9B284213DF0084E248 /* TimerModel.swift */; };
+		E2E99D9F284336820084E248 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E99D9E284336820084E248 /* Storage.swift */; };
+		E2E99DA0284336820084E248 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E99D9E284336820084E248 /* Storage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,10 @@
 		E2E99D7B2841F38E0084E248 /* Pomodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pomodoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2E99D812841F38E0084E248 /* Pomodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pomodoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2E99D832841F38E0084E248 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		E2E99D95284201990084E248 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		E2E99D98284211B20084E248 /* TimerConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerConfiguration.swift; sourceTree = "<group>"; };
+		E2E99D9B284213DF0084E248 /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
+		E2E99D9E284336820084E248 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +69,10 @@
 				E2E99D742841F38E0084E248 /* PomodoroApp.swift */,
 				E2E99D752841F38E0084E248 /* ContentView.swift */,
 				E2E99D762841F38E0084E248 /* Assets.xcassets */,
+				E2E99D9B284213DF0084E248 /* TimerModel.swift */,
+				E2E99D95284201990084E248 /* State.swift */,
+				E2E99D98284211B20084E248 /* TimerConfiguration.swift */,
+				E2E99D9E284336820084E248 /* Storage.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -176,8 +192,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2E99D99284211B20084E248 /* TimerConfiguration.swift in Sources */,
 				E2E99D862841F38E0084E248 /* ContentView.swift in Sources */,
+				E2E99D9C284213DF0084E248 /* TimerModel.swift in Sources */,
 				E2E99D842841F38E0084E248 /* PomodoroApp.swift in Sources */,
+				E2E99D96284201990084E248 /* State.swift in Sources */,
+				E2E99D9F284336820084E248 /* Storage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +205,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2E99D9A284211B20084E248 /* TimerConfiguration.swift in Sources */,
 				E2E99D872841F38E0084E248 /* ContentView.swift in Sources */,
+				E2E99D9D284213DF0084E248 /* TimerModel.swift in Sources */,
 				E2E99D852841F38E0084E248 /* PomodoroApp.swift in Sources */,
+				E2E99D97284201990084E248 /* State.swift in Sources */,
+				E2E99DA0284336820084E248 /* Storage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
